@@ -6,6 +6,7 @@
 
 int StringHash(char *ch, int length);
 
+/* закомментировал main(), т.к. есть ещё один main() в файле Tree.c
 void main()
 {
 	FILE *input_file;
@@ -22,6 +23,7 @@ void main()
 	printf("%d", StringHash(buf, length));
 	scanf(" ");
 }
+*/
 
 // функция вычисления хэша от строки
 int StringHash(char *ch, int length) {
